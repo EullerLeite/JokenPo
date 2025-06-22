@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <!--<color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Fundoprincipal">#F4F5F7</color>
+    <color name="Botões">#DCE2F0</color>
+    <color name="Textoprincipal">#2B2D42</color>
+    <color name="Textosecundário">#6C7380</color>-->
+    <!-- Paleta personalizada para o app Jokenpo -->
+
+    <!-- Cores principais -->
+    <color name="primaria">#040404</color> <!-- Azul leve de destaque -->
+    <color name="primaria_variacao">#AAB0C6</color> <!-- Pedra -->
+
+    <!-- Cores secundárias -->
+    <color name="secundaria">#C7D9C4</color> <!-- Papel -->
+
+    <!-- Ações específicas -->
+    <color name="cor_tesoura">#E8D2CE</color> <!-- Tesoura -->
+    <color name="cor_fundo">#E8F306</color> <!-- Fundo geral -->
+    <color name="cor_cartao">#DCE2F0</color> <!-- Cartas, botões -->
+
+    <!-- Texto -->
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+    <color name="texto_primario">#2B2D42</color>
+    <color name="texto_secundario">#6C7380</color>
+
+    <!-- Alerta/erro -->
+    <color name="cor_derrota">#D97B7B</color>
+
 </resources>

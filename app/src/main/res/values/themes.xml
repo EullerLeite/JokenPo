@@ -1,8 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.JokenPo" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--  Primary brand color.  -->
+        <item name="colorPrimary">@color/branco</item>
+        <item name="colorPrimaryVariant">@color/preto</item>
+        <item name="colorOnPrimary">@color/texto_primario</item>
+        <!--  Secondary brand color.  -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/branco</item>
+        <item name="colorOnSecondary">@color/branco</item>
+        <!--  Status bar color.  -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!--  Customize your theme here.  -->
+        <item name="android:windowBackground">@color/cor_fundo</item>
+
+        <item name="android:textColor">@color/primaria</item>
+
     </style>
 
     <style name="Theme.JokenPo" parent="Base.Theme.JokenPo" />
